@@ -120,7 +120,8 @@ Output:
 lab\jsmith01
 ```
 
-<img width="1095" height="539" alt="screenshots:10-whoami-success" src="https://github.com/user-attachments/assets/460f0da5-11a6-44e5-ba05-a46d444bcc82" />
+[<img width="1095" height="539" alt="screenshots:10-whoami-success" src="https://github.com/user-attachments/assets/460f0da5-11a6-44e5-ba05-a46d444bcc82" />
+](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/main/screenshots/12-whoami-success.png?raw=true)
 
 ---
 
