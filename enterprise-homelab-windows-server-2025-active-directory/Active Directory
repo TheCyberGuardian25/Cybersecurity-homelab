@@ -1,0 +1,157 @@
+# 🛡️ Active Directory Domain Join Across Segmented VLANs using pfSense | Cybersecurity Homelab
+
+## Overview
+
+Built an enterprise-style homelab in Proxmox to simulate a segmented network environment and securely join a Windows client to an Active Directory domain.
+
+The objective was to validate domain authentication while maintaining network isolation using pfSense firewall rules.
+
+---
+
+## Technologies Used
+
+* Proxmox VE
+* Windows Server 2025
+* Active Directory Domain Services (AD DS)
+* DNS
+* pfSense
+* VLAN Segmentation
+* Windows Client
+
+---
+
+## Environment
+
+| Component | Role              |
+| --------- | ----------------- |
+| VLAN50    | User Workstation  |
+| VLAN70    | Domain Controller |
+| pfSense   | Firewall          |
+| Proxmox   | Virtualisation    |
+
+---
+
+## Objective
+
+* Create Active Directory users
+* Configure DNS
+* Troubleshoot connectivity
+* Configure pfSense firewall rules
+* Join workstation to domain
+* Validate authentication
+
+---
+
+## Screenshots
+
+### Network Architecture
+
+![Lab Architecture] (screenshots:01-lab-topology.png)
+
+---
+
+### Active Directory User Creation
+
+Created a domain user account that will be used to authenticate to Active Directory from the client workstation.
+
+![AD User Created](screenshots/02-ad-user-created.png)
+
+---
+
+### Initial Connectivity Failure
+
+During testing, the workstation could not communicate with the Domain Controller due to missing firewall rules between VLAN50 and VLAN70.
+
+![Ping Failure](screenshots/03-ping-failed.png)
+
+![Additional Connectivity Failure](screenshots/04-ping-failed.png)
+
+---
+
+### pfSense Firewall Rules Before Changes
+
+Initial firewall configuration blocking communication between VLANs.
+
+![Firewall Rules Before](screenshots/05-pfsense-rules-before.png)
+
+---
+
+### pfSense Firewall Rules After Changes
+
+Firewall rules were updated to allow controlled communication between the workstation VLAN and the Domain Controller.
+
+![Firewall Rules After](screenshots/06-pfsense-rules-after.png)
+
+![Additional Firewall Rule](screenshots/06-pfsense-rules-after01.png)
+
+![Additional Firewall Rule](screenshots/07-pfsense-rules-after02.png)
+
+---
+
+### Connectivity Restored
+
+After applying the required firewall rules, connectivity was successfully established.
+
+![Ping Success](screenshots/07-ping-success.png)
+
+![Additional Ping Success](screenshots/08-ping-success.png)
+
+---
+
+### DNS Configuration
+
+The client workstation was configured to use the Domain Controller as its preferred DNS server.
+
+![DNS Configuration](screenshots/09-dns-config.png)
+
+---
+
+### Domain Join
+
+The workstation successfully joined the Active Directory domain.
+
+![Domain Join](screenshots/10-domain-join.png)
+
+---
+
+## Validation
+
+Successful authentication was verified by logging into the workstation using domain credentials.
+
+```powershell
+whoami
+```
+
+Expected output:
+
+```text
+LAB\jsmith01
+```
+
+---
+
+## 🎥 Full Walkthrough
+
+Watch the complete build and validation process here:
+
+[▶️ Watch Full Video Here](PASTE_YOUR_YOUTUBE_LINK_HERE)
+
+---
+
+## Key Skills Demonstrated
+
+* Active Directory Administration
+* Windows Server Management
+* DNS Configuration
+* VLAN Segmentation
+* pfSense Firewall Management
+* Connectivity Troubleshooting
+* Network Segmentation
+* Domain Authentication
+* Enterprise Network Administration
+
+---
+
+## Lessons Learned
+
+This project demonstrated how firewall rules, DNS configuration, and network segmentation directly impact Active Directory communication and domain authentication. The lab reinforced the importance of validating network connectivity before attempting domain authentication and highlighted how pfSense can be used to securely control communication between VLANs in an enterprise environment.
