@@ -46,7 +46,8 @@ The objective was to validate domain authentication while maintaining network is
 
 ### Network Architecture
 
-<img width="1095" height="539" alt="screenshots:01-lab-topology" src="https://github.com/user-attachments/assets/0fa9745b-afb6-4608-a7d7-7f24fd389df6" />
+[<img width="1095" height="539" alt="screenshots:01-lab-topology" src="https://github.com/user-attachments/assets/0fa9745b-afb6-4608-a7d7-7f24fd389df6" />
+](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/main/screenshots/01-lab-topology.png?raw=true)
 
 ---
 
