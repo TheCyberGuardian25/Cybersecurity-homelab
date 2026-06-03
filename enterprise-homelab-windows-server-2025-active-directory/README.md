@@ -59,38 +59,40 @@ The objective was to validate domain authentication while maintaining network is
 
 ### Initial Connectivity Failure
 
-![image alt] (
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/a8eddae94dfe84c08a91db4b99f9f0e867290e3a/enterprise-homelab-windows-server-2025-active-directory/screenshots/03-ping-failed.png)
 
-![image alt] 
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/04-ping-failed.png)
 
 ---
 
 ### Firewall Rules Before / After
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/05-pfsense-rules-before.png)
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/06-pfsense-rules-after.png)
+
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/06-pfsense-rules-after01.png)
 
 ### Result:
 
 - Successful communication
 - Gateway reachable
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/07-ping-success.png)
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/08-ping-success.png)
 
 ---
 
 ### DNS Configuration
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/09-dns-config.png)
 
 ---
 
 ### Domain Join
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/89698cb787bfa932b8baf9451e7002c362f10947/screenshots/10-domain-join.png)
 
 ---
 
@@ -108,7 +110,7 @@ Output:
 lab\jsmith01
 ```
 
-![image alt]
+![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/89698cb787bfa932b8baf9451e7002c362f10947/screenshots/12-whoami-success.png)
 
 ---
 
