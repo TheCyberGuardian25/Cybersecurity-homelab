@@ -61,6 +61,8 @@ The objective was to validate domain authentication while maintaining network is
 
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/a8eddae94dfe84c08a91db4b99f9f0e867290e3a/enterprise-homelab-windows-server-2025-active-directory/screenshots/03-ping-failed.png)
 
+---
+
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/04-ping-failed.png)
 
 ---
@@ -69,7 +71,11 @@ The objective was to validate domain authentication while maintaining network is
 
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/05-pfsense-rules-before.png)
 
+---
+
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/06-pfsense-rules-after.png)
+
+---
 
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/06-pfsense-rules-after01.png)
 
@@ -79,6 +85,8 @@ The objective was to validate domain authentication while maintaining network is
 - Gateway reachable
 
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/07-ping-success.png)
+
+---
 
 ![image alt](https://github.com/TheCyberGuardian25/Cybersecurity-homelab/blob/7e5c4c7235fa2294253741751164a4ad6ab72067/enterprise-homelab-windows-server-2025-active-directory/screenshots/08-ping-success.png)
 
