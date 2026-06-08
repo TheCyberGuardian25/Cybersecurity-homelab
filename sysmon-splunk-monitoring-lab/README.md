@@ -42,8 +42,8 @@ This project demonstrates core SOC Analyst skills including:
 | Component                | IP Address  | Purpose                      |
 | ------------------------ | ----------- | ---------------------------- |
 | Ubuntu Desktop 24.04 LTS | 10.0.70.104 | Splunk Enterprise            |
-| Windows Server 2025      | 10.0.70.x   | Sysmon + Universal Forwarder |
-| Proxmox VE               | N/A         | Virtualisation Platform      |
+| Windows Server 2025      | 10.0.70.2   | Sysmon + Universal Forwarder |
+| Proxmox VE               | ---         | Virtualisation Platform      |
 
 ---
 
