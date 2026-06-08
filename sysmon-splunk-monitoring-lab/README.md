@@ -23,40 +23,6 @@ This project demonstrates core SOC Analyst skills including:
 
 **Figure 1.** Lab topology showing Windows Server 2025 forwarding Windows Event Logs and Sysmon telemetry to Splunk Enterprise hosted on Ubuntu Desktop.
 
-```text
-+--------------------------------------------------+
-|                  Proxmox VE                      |
-+--------------------------------------------------+
-
-                VLAN70
-
-+--------------------+
-| Windows Server     |
-|                    |
-| Sysmon             |
-| Universal Forwarder|
-+----------+---------+
-           |
-           | TCP 9997
-           |
-           v
-
-+-------------------------+
-| Ubuntu Desktop          |
-| Splunk Enterprise       |
-| Index: wineventlog      |
-+------------+------------+
-             |
-             v
-
-+-------------------------+
-| Search & Reporting      |
-| Security Monitoring     |
-+-------------------------+
-```
-
----
-
 # Lab Objectives
 
 * Deploy Splunk Enterprise on Ubuntu
