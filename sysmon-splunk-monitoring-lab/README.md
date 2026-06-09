@@ -110,7 +110,7 @@ Downloaded the Linux `.tgz` package from Splunk.
 Example:
 
 ```text
-splunk-10.4.0-<build>-Linux-x86_64.tgz
+splunk-10.4.0-f798d4d49089-linux-amd64.tgz
 ```
 
 ---
@@ -126,7 +126,7 @@ cd ~/Downloads
 Extract archive:
 
 ```bash
-tar -xvzf splunk-10.4.0-*.tgz
+tar -xvzf /home/cyber/Downloads/splunk-10.4.0-f798d4d49089-linux-amd64.tgz
 ```
 
 Verify extraction:
@@ -435,9 +435,6 @@ index=wineventlog
 Example activities generated during testing:
 
 ```cmd
-whoami
-
-ipconfig
 
 notepad.exe
 
